@@ -1,0 +1,163 @@
+.mydisplay{
+    border: 2px solid red;
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    background-color: seashell;
+}
+.button_design .btn{
+    background-color: red;
+}
+.table-component-table{
+    margin-top: 50px;
+
+    background-color: cornsilk;
+   
+   
+
+
+}
+.component-title{
+   
+    border: 5px solid orange;
+    border-style: outset;
+   
+
+    font-size: 25px;
+}
+
+.cpu-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+.motherboard-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+.ram-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+.storage-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+.graphicscard-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+.casing-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+.monitor-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+.mouse-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+.keyboard-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+}
+
+
+
+
+.component-col{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 100px;
+    border: 2px solid black;
+    border-style: outset;
+    
+  
+}
+
+.image-col{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 2px solid black;
+
+}
+
+.name-col{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 80px;
+    border: 2px solid black;
+}
+
+.price-col{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 2px solid black;
+}
+.Action-col{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border: 2px solid black;
+}
+.btn{
+    background-color: orange;
+    
+}
+
+.totalprice-title{
+   
+    border: 5px solid orange;
+   
+
+    font-size: 25px;
+
+
+}
+.totalprice-col{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: none;
+    padding: 12px;
+}

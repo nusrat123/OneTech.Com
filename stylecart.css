@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----product Details---*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.btn_cart{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-bottom: 25px;
+
+}
+.single_product{
+    margin-top: 100px;
+}
+.single_product .col-2 img{
+    padding: 0;
+}
+.single_product .col-2{
+    padding: 20px;
+}
+
+.single_product h4{
+ margin: 20px 0;
+ font-size: 22px;
+ font-weight: bold;
+}
+.single_product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff512b;
+}
+input:focus{
+    outline: none;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-img-col{
+    flex-basis: 32%;
+    cursor: pointer;
+}
+.btn-related_products{
+    margin-bottom: 10px;
+}
+
+.cart{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.related{
+    margin: 20px 10px 150px 100px;
+}
+
+
+/*----cart---*/
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+table{
+    margin-top: 10px;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: bold;
+    font-size: 20px;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color:#ff523b ;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.total-price table{
+    border-top: 3px solid #ff512b;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}

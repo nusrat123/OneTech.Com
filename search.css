@@ -1,0 +1,229 @@
+.input-group{
+    height: 40px;
+    width: 530px;
+    display: flex;
+    margin: 10px 10px 10px 20px;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+.input-group>input{
+    height: 100%;
+    width: 500px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+.input-group-addon>button{
+    height: 100%;
+    width: 50px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #cccc;
+    border-radius: 0 5px 5px 0;
+    background-color:yellow;
+}
+.fa-search{
+    font-size: 22px;
+}
+.fa-search:hover{
+    color:tomato;
+}
+.form-wrapper{
+    position: relative;
+}
+.result-wrapper{
+   border: solid  #ff5100 1px;
+   border-radius: 0 0 5px 5px;
+   position: absolute;
+   width: 88.1%;
+   top: 36px;
+}
+.result-wrapper >ul{
+    margin: 150 px;
+    padding: 0;
+    list-style-type: none;
+    color: #444;
+}
+.result-wrapper >ul>li>a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.shopping-container{
+    display: inline-flex;
+}
+.second-panel{
+    display: inline-flex;
+}
+.third-panel{
+    display: flex;
+}
+.third-panel>button{
+    min-height: 100px;
+}
+.counter-container{
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.counter-container svg{
+    width: 3rem;
+    color: #f2f2f2;
+}
+.counter-container svg:hover{
+    color: darkorange;
+}
+.counter-container span{
+    user-select: none;
+    position: absolute;
+    background:aqua;
+    width: 18px;
+    height: 18px;
+    font-size: 1rem;
+    border-radius: 50%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: .05rem;
+    right: .05rem;
+    padding-left: 5px;
+}
+.counter-container span:not(.animated-counter){
+    display: none;
+}
+.counter-container span .animated-counter{
+    animation: count .4s ease-in-out;
+}
+.wish-list{
+    display: inline-flex;
+}
+.wish-container{
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wish-container svg{
+    width: 3rem;
+    color: #f2f2f2;
+}
+.wish-container span{
+    user-select: none;
+    position: absolute;
+    background:greenyellow;
+    width: 18px;
+    height: 18px;
+    font-size: 1rem;
+    border-radius: 50%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    top: .05rem;
+    right: .05rem;
+    padding-left: 5px;
+}
+.wish-container span:not(.animated){
+    display: none;
+}
+.wish-container span .animated{
+    animation: count .4s ease-in-out;
+}
+.fa-heart-o{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 1.5px;
+}
+.fa-heart-o:hover{
+    color: darkorange;
+}
+@keyframes count{
+    from{
+        top: .2rem;
+        right:-1.8rem;
+        transform: rotate(120deg)
+    }
+    25%{
+        top: -.2rem;
+        right: -1.2rem;
+        transform: rotate(80deg)
+    }
+    50%{
+        top: -.4rem;
+        right: -.6rem;
+        transform: rotate(60deg)
+    }
+    75%{
+        top: -.4rem;
+        right: 0rem;
+        transform: rotate(30deg)
+    }
+    to{
+        top: .2rem;
+        right: .3rem;
+        transform: rotate(0deg)
+    }
+}
+@keyframes count1{
+    from{
+        top: .2rem;
+        right:-1.8rem;
+        transform: rotate(120deg)
+    }
+    25%{
+        top: -.2rem;
+        right: -1.2rem;
+        transform: rotate(80deg)
+    }
+    50%{
+        top: -.4rem;
+        right: -.6rem;
+        transform: rotate(60deg)
+    }
+    75%{
+        top: -.4rem;
+        right: 0rem;
+        transform: rotate(30deg)
+    }
+    to{
+        top: .2rem;
+        right: .3rem;
+        transform: rotate(0deg)
+    }
+}
+.build{
+    display: inline-flex;
+    width: 220px;
+    height: 50px;
+    align-content: center;
+    margin: 5px 0px 10px 20px;
+}
+.pc-builder-btn{
+    background:maroon;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 8px 12px 8px;
+}
+.pc-builder-btn:hover
+{
+    background-color: #ff5100;
+    border-radius: 5px;
+}
+.pc-builder-btn .fa
+{
+    margin: 5px 5px 5px 5px; 
+}

@@ -1,0 +1,101 @@
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding:20px;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0,0, 0.1);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding:0 20px;
+    position: absolute;
+    top: 130px;
+  transition: transform 1s;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+
+}
+form .btn{
+    padding: 14px 40px;
+    background-color:orange;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 10px 0;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 18px;
+    color: black;
+}
+
+#Indicator{
+    width: 100px;
+    border:none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: tranform 1s;
+}
+
+.admin{
+    margin-top: 50px;
+}
+.adminbutton{
+
+        padding: 14px 40px;
+        background-color:orange;
+        width: 200px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        margin: 10px 400px 20px 500px;
+
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+    
+}
+.adminbutton:focus{
+    outline: none;
+
+}

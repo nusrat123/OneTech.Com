@@ -1,0 +1,82 @@
+.small-container-3{
+    margin-top: 80px;
+    display: inline-flex;
+    background-color: red;
+}
+.block {
+
+    display: block;
+ }
+
+ #billingaddress,#billigname{
+     float: right;
+     margin-right: 10px;
+     font-size: 15px;
+
+    padding: 5px 5px 5px 5px;
+    size: 50 px 50px;
+ }
+ #phonenumber{
+     font-size: 15px;
+     padding: 5px 5px 5px 5px;
+
+     float: right;
+ }
+ .delivaryname{
+
+     font-size: medium;
+ }
+.billingrow1{
+    margin-bottom: 10px;
+}
+.col-6-middlepart{
+     margin: 30px 40px 40px 40px;
+     padding: 40px 10px 10px 10px;
+    background-color:rgb(230, 157, 69);
+ }
+ .billingrow2{
+     margin-top: 10px;
+
+ }
+.mb-3{
+
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.ordersubtotal{
+    width: 460px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border: 2px solid black;
+    background-color: white;
+
+}
+.money{
+    width: 130px;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.backorview .btn{
+    background-color: rgb(157, 255, 0);
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 10px 10px 50px;
+}
+.backorview .btn:hover{
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
